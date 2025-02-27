@@ -8,33 +8,28 @@ body{
 article {
     margin: auto;
     display: flex;
-    flex-direction: column;
-    align-items:center;
-    flex-wrap: wrap;
-    padding: 100px;
-}
-
-.heroes_box {
-    display: flex;
-    width: 100%;
     flex-direction: row;
     align-items:center;
     flex-wrap: wrap;
+    width:1280px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    justify-content: center;
 }
 
 .hero{
     display: flex;
     box-sizing: border-box;
     background-color: gray;
-    transform: skewX(-10deg);
+    transform: skewX(-10deg) scale(0.9);
     border: 4px solid #ffffff;
     border-radius: 10pt;
-    flex-shrink: 2;
-    flex-basis: auto;
 }
 
 .hero:hover{
     flex-shrink: 0;
     background-color: orange;
     transition-duration: 1s;
+    transform: skewX(-10deg) scale(1.1);
 }
