@@ -3,6 +3,7 @@ body{
     box-sizing: border-box;
     display: flex;
     background-image: url(images/bg.png);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -17,6 +18,7 @@ article {
     box-sizing: border-box;
     flex-shrink: 0;
     justify-content: center;
+
 }
 
 .hero{
