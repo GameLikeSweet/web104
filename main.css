@@ -94,14 +94,16 @@ article .box{
     opacity:0.4;
     flex-direction: column;
     color:#ffffff;
-    background-size:50% 100%;
+    background-position: -150px 0;
     background-repeat: no-repeat;
+    transition-duration: 1s;
 }
 
 article .box a{
     display: flex;
     flex-wrap: wrap;
     margin-top:auto;
+    transition-duration: 1s;
 }
 
 a img{
@@ -113,11 +115,9 @@ article .box:hover {
     background-image: url("./images/back.png");
     transition-duration: 0.5s;
     opacity:1;
-    background-size:100% 100%;
+    background-position:0 0;
 }
 
 article .box:hover a{
     transform:scale(1.2);
-    transition-duration: 1s;
-    
 }
